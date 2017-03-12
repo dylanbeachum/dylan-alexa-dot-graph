@@ -1,0 +1,12 @@
+digraph {
+
+rankdir=LR	
+
+d[label="dylan" shape="oval"];
+x[label="alexa" shape="box"];
+aws[label="amazon web service" shape="box"];
+
+d->x;
+x->aws;
+
+}
